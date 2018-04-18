@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		498B1937D449FED3331400C8 /* Pods_RAC___________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B524FEB479CA8488B976452 /* Pods_RAC___________.framework */; };
+		CBFFF1D72087A4380018F3D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFF1D62087A4380018F3D0 /* AppDelegate.m */; };
+		CBFFF1DA2087A4380018F3D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFF1D92087A4380018F3D0 /* ViewController.m */; };
+		CBFFF1DD2087A4380018F3D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFFF1DB2087A4380018F3D0 /* Main.storyboard */; };
+		CBFFF1DF2087A43A0018F3D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBFFF1DE2087A43A0018F3D0 /* Assets.xcassets */; };
+		CBFFF1E22087A43A0018F3D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFFF1E02087A43A0018F3D0 /* LaunchScreen.storyboard */; };
+		CBFFF1E52087A43A0018F3D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFF1E42087A43A0018F3D0 /* main.m */; };
+		CBFFF1EF2087A43A0018F3D0 /* RAC___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFF1EE2087A43A0018F3D0 /* RAC___________Tests.m */; };
+		CBFFF1FA2087A43A0018F3D0 /* RAC___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFF1F92087A43A0018F3D0 /* RAC___________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBFFF1EB2087A43A0018F3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFFF1CA2087A4380018F3D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFFF1D12087A4380018F3D0;
+			remoteInfo = "RAC的简单使用以及应用场景";
+		};
+		CBFFF1F62087A43A0018F3D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBFFF1CA2087A4380018F3D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBFFF1D12087A4380018F3D0;
+			remoteInfo = "RAC的简单使用以及应用场景";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983413DDAFF9D9B82228F516 /* Pods-RAC的简单使用以及应用场景.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的简单使用以及应用场景.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的简单使用以及应用场景/Pods-RAC的简单使用以及应用场景.release.xcconfig"; sourceTree = "<group>"; };
+		9B524FEB479CA8488B976452 /* Pods_RAC___________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC___________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEC7D70D4F4D60B0F014BAE /* Pods-RAC的简单使用以及应用场景.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的简单使用以及应用场景.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的简单使用以及应用场景/Pods-RAC的简单使用以及应用场景.debug.xcconfig"; sourceTree = "<group>"; };
+		CBFFF1D22087A4380018F3D0 /* RAC的简单使用以及应用场景.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC的简单使用以及应用场景.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFFF1D52087A4380018F3D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBFFF1D62087A4380018F3D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBFFF1D82087A4380018F3D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBFFF1D92087A4380018F3D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBFFF1DC2087A4380018F3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBFFF1DE2087A43A0018F3D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBFFF1E12087A43A0018F3D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBFFF1E32087A43A0018F3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFFF1E42087A43A0018F3D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBFFF1EA2087A43A0018F3D0 /* RAC的简单使用以及应用场景Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC的简单使用以及应用场景Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFFF1EE2087A43A0018F3D0 /* RAC___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC___________Tests.m; sourceTree = "<group>"; };
+		CBFFF1F02087A43A0018F3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFFF1F52087A43A0018F3D0 /* RAC的简单使用以及应用场景UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC的简单使用以及应用场景UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFFF1F92087A43A0018F3D0 /* RAC___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC___________UITests.m; sourceTree = "<group>"; };
+		CBFFF1FB2087A43A0018F3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBFFF1CF2087A4380018F3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498B1937D449FED3331400C8 /* Pods_RAC___________.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFFF1E72087A43A0018F3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFFF1F22087A43A0018F3D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBFFF1C92087A4380018F3D0 = {
+			isa = PBXGroup;
+			children = (
+				CBFFF1D42087A4380018F3D0 /* RAC的简单使用以及应用场景 */,
+				CBFFF1ED2087A43A0018F3D0 /* RAC的简单使用以及应用场景Tests */,
+				CBFFF1F82087A43A0018F3D0 /* RAC的简单使用以及应用场景UITests */,
+				CBFFF1D32087A4380018F3D0 /* Products */,
+				D40AC026F303D45A05AE2019 /* Pods */,
+				E52352785BE255C2DFA08044 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CBFFF1D32087A4380018F3D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBFFF1D22087A4380018F3D0 /* RAC的简单使用以及应用场景.app */,
+				CBFFF1EA2087A43A0018F3D0 /* RAC的简单使用以及应用场景Tests.xctest */,
+				CBFFF1F52087A43A0018F3D0 /* RAC的简单使用以及应用场景UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBFFF1D42087A4380018F3D0 /* RAC的简单使用以及应用场景 */ = {
+			isa = PBXGroup;
+			children = (
+				CBFFF1D52087A4380018F3D0 /* AppDelegate.h */,
+				CBFFF1D62087A4380018F3D0 /* AppDelegate.m */,
+				CBFFF1D82087A4380018F3D0 /* ViewController.h */,
+				CBFFF1D92087A4380018F3D0 /* ViewController.m */,
+				CBFFF1DB2087A4380018F3D0 /* Main.storyboard */,
+				CBFFF1DE2087A43A0018F3D0 /* Assets.xcassets */,
+				CBFFF1E02087A43A0018F3D0 /* LaunchScreen.storyboard */,
+				CBFFF1E32087A43A0018F3D0 /* Info.plist */,
+				CBFFF1E42087A43A0018F3D0 /* main.m */,
+			);
+			path = "RAC的简单使用以及应用场景";
+			sourceTree = "<group>";
+		};
+		CBFFF1ED2087A43A0018F3D0 /* RAC的简单使用以及应用场景Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFFF1EE2087A43A0018F3D0 /* RAC___________Tests.m */,
+				CBFFF1F02087A43A0018F3D0 /* Info.plist */,
+			);
+			path = "RAC的简单使用以及应用场景Tests";
+			sourceTree = "<group>";
+		};
+		CBFFF1F82087A43A0018F3D0 /* RAC的简单使用以及应用场景UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBFFF1F92087A43A0018F3D0 /* RAC___________UITests.m */,
+				CBFFF1FB2087A43A0018F3D0 /* Info.plist */,
+			);
+			path = "RAC的简单使用以及应用场景UITests";
+			sourceTree = "<group>";
+		};
+		D40AC026F303D45A05AE2019 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAEC7D70D4F4D60B0F014BAE /* Pods-RAC的简单使用以及应用场景.debug.xcconfig */,
+				983413DDAFF9D9B82228F516 /* Pods-RAC的简单使用以及应用场景.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E52352785BE255C2DFA08044 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B524FEB479CA8488B976452 /* Pods_RAC___________.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBFFF1D12087A4380018F3D0 /* RAC的简单使用以及应用场景 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFFF1FE2087A43A0018F3D0 /* Build configuration list for PBXNativeTarget "RAC的简单使用以及应用场景" */;
+			buildPhases = (
+				2EBD17F366BB217BFDF8C980 /* [CP] Check Pods Manifest.lock */,
+				CBFFF1CE2087A4380018F3D0 /* Sources */,
+				CBFFF1CF2087A4380018F3D0 /* Frameworks */,
+				CBFFF1D02087A4380018F3D0 /* Resources */,
+				AB229EC9B2AF52D4D6CCC68B /* [CP] Embed Pods Frameworks */,
+				6AE15A9871FE68172F7AA8F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAC的简单使用以及应用场景";
+			productName = "RAC的简单使用以及应用场景";
+			productReference = CBFFF1D22087A4380018F3D0 /* RAC的简单使用以及应用场景.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBFFF1E92087A43A0018F3D0 /* RAC的简单使用以及应用场景Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFFF2012087A43A0018F3D0 /* Build configuration list for PBXNativeTarget "RAC的简单使用以及应用场景Tests" */;
+			buildPhases = (
+				CBFFF1E62087A43A0018F3D0 /* Sources */,
+				CBFFF1E72087A43A0018F3D0 /* Frameworks */,
+				CBFFF1E82087A43A0018F3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFFF1EC2087A43A0018F3D0 /* PBXTargetDependency */,
+			);
+			name = "RAC的简单使用以及应用场景Tests";
+			productName = "RAC的简单使用以及应用场景Tests";
+			productReference = CBFFF1EA2087A43A0018F3D0 /* RAC的简单使用以及应用场景Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBFFF1F42087A43A0018F3D0 /* RAC的简单使用以及应用场景UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBFFF2042087A43A0018F3D0 /* Build configuration list for PBXNativeTarget "RAC的简单使用以及应用场景UITests" */;
+			buildPhases = (
+				CBFFF1F12087A43A0018F3D0 /* Sources */,
+				CBFFF1F22087A43A0018F3D0 /* Frameworks */,
+				CBFFF1F32087A43A0018F3D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBFFF1F72087A43A0018F3D0 /* PBXTargetDependency */,
+			);
+			name = "RAC的简单使用以及应用场景UITests";
+			productName = "RAC的简单使用以及应用场景UITests";
+			productReference = CBFFF1F52087A43A0018F3D0 /* RAC的简单使用以及应用场景UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBFFF1CA2087A4380018F3D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = JM;
+				TargetAttributes = {
+					CBFFF1D12087A4380018F3D0 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					CBFFF1E92087A43A0018F3D0 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CBFFF1D12087A4380018F3D0;
+					};
+					CBFFF1F42087A43A0018F3D0 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CBFFF1D12087A4380018F3D0;
+					};
+				};
+			};
+			buildConfigurationList = CBFFF1CD2087A4380018F3D0 /* Build configuration list for PBXProject "RAC的简单使用以及应用场景" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBFFF1C92087A4380018F3D0;
+			productRefGroup = CBFFF1D32087A4380018F3D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBFFF1D12087A4380018F3D0 /* RAC的简单使用以及应用场景 */,
+				CBFFF1E92087A43A0018F3D0 /* RAC的简单使用以及应用场景Tests */,
+				CBFFF1F42087A43A0018F3D0 /* RAC的简单使用以及应用场景UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBFFF1D02087A4380018F3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFFF1E22087A43A0018F3D0 /* LaunchScreen.storyboard in Resources */,
+				CBFFF1DF2087A43A0018F3D0 /* Assets.xcassets in Resources */,
+				CBFFF1DD2087A4380018F3D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFFF1E82087A43A0018F3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFFF1F32087A43A0018F3D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EBD17F366BB217BFDF8C980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC的简单使用以及应用场景-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AE15A9871FE68172F7AA8F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC的简单使用以及应用场景/Pods-RAC的简单使用以及应用场景-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB229EC9B2AF52D4D6CCC68B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RAC的简单使用以及应用场景/Pods-RAC的简单使用以及应用场景-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC的简单使用以及应用场景/Pods-RAC的简单使用以及应用场景-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBFFF1CE2087A4380018F3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFFF1DA2087A4380018F3D0 /* ViewController.m in Sources */,
+				CBFFF1E52087A43A0018F3D0 /* main.m in Sources */,
+				CBFFF1D72087A4380018F3D0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFFF1E62087A43A0018F3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFFF1EF2087A43A0018F3D0 /* RAC___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBFFF1F12087A43A0018F3D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBFFF1FA2087A43A0018F3D0 /* RAC___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBFFF1EC2087A43A0018F3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFFF1D12087A4380018F3D0 /* RAC的简单使用以及应用场景 */;
+			targetProxy = CBFFF1EB2087A43A0018F3D0 /* PBXContainerItemProxy */;
+		};
+		CBFFF1F72087A43A0018F3D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBFFF1D12087A4380018F3D0 /* RAC的简单使用以及应用场景 */;
+			targetProxy = CBFFF1F62087A43A0018F3D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBFFF1DB2087A4380018F3D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFFF1DC2087A4380018F3D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBFFF1E02087A43A0018F3D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBFFF1E12087A43A0018F3D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBFFF1FC2087A43A0018F3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBFFF1FD2087A43A0018F3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBFFF1FF2087A43A0018F3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEC7D70D4F4D60B0F014BAE /* Pods-RAC的简单使用以及应用场景.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = "RAC的简单使用以及应用场景/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBFFF2002087A43A0018F3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983413DDAFF9D9B82228F516 /* Pods-RAC的简单使用以及应用场景.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = "RAC的简单使用以及应用场景/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBFFF2022087A43A0018F3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = "RAC的简单使用以及应用场景Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC的简单使用以及应用场景.app/RAC的简单使用以及应用场景";
+			};
+			name = Debug;
+		};
+		CBFFF2032087A43A0018F3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = "RAC的简单使用以及应用场景Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC的简单使用以及应用场景.app/RAC的简单使用以及应用场景";
+			};
+			name = Release;
+		};
+		CBFFF2052087A43A0018F3D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = "RAC的简单使用以及应用场景UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RAC的简单使用以及应用场景";
+			};
+			name = Debug;
+		};
+		CBFFF2062087A43A0018F3D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = "RAC的简单使用以及应用场景UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RAC的简单使用以及应用场景";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBFFF1CD2087A4380018F3D0 /* Build configuration list for PBXProject "RAC的简单使用以及应用场景" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFFF1FC2087A43A0018F3D0 /* Debug */,
+				CBFFF1FD2087A43A0018F3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFFF1FE2087A43A0018F3D0 /* Build configuration list for PBXNativeTarget "RAC的简单使用以及应用场景" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFFF1FF2087A43A0018F3D0 /* Debug */,
+				CBFFF2002087A43A0018F3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFFF2012087A43A0018F3D0 /* Build configuration list for PBXNativeTarget "RAC的简单使用以及应用场景Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFFF2022087A43A0018F3D0 /* Debug */,
+				CBFFF2032087A43A0018F3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBFFF2042087A43A0018F3D0 /* Build configuration list for PBXNativeTarget "RAC的简单使用以及应用场景UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBFFF2052087A43A0018F3D0 /* Debug */,
+				CBFFF2062087A43A0018F3D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBFFF1CA2087A4380018F3D0 /* Project object */;
+}

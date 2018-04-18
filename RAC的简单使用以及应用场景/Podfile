@@ -1,0 +1,9 @@
+use_frameworks!
+platform :ios, '8.0'
+
+target 'RAC的简单使用以及应用场景' do
+
+#pod 'ReactiveCocoa','4.0.0'
+pod 'ReactiveObjC'
+
+end
