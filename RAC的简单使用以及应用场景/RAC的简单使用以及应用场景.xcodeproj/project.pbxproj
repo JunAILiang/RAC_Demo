@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		498B1937D449FED3331400C8 /* Pods_RAC___________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B524FEB479CA8488B976452 /* Pods_RAC___________.framework */; };
+		CBA85A7D2089C17800559D09 /* JMView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA85A7C2089C17800559D09 /* JMView.m */; };
 		CBFFF1D72087A4380018F3D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFF1D62087A4380018F3D0 /* AppDelegate.m */; };
 		CBFFF1DA2087A4380018F3D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBFFF1D92087A4380018F3D0 /* ViewController.m */; };
 		CBFFF1DD2087A4380018F3D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFFF1DB2087A4380018F3D0 /* Main.storyboard */; };
@@ -37,8 +38,10 @@
 
 /* Begin PBXFileReference section */
 		983413DDAFF9D9B82228F516 /* Pods-RAC的简单使用以及应用场景.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的简单使用以及应用场景.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的简单使用以及应用场景/Pods-RAC的简单使用以及应用场景.release.xcconfig"; sourceTree = "<group>"; };
-		9B524FEB479CA8488B976452 /* Pods_RAC___________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC___________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B524FEB479CA8488B976452 /* Pods_RAC___________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RAC___________.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEC7D70D4F4D60B0F014BAE /* Pods-RAC的简单使用以及应用场景.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC的简单使用以及应用场景.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC的简单使用以及应用场景/Pods-RAC的简单使用以及应用场景.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA85A7B2089C17800559D09 /* JMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMView.h; sourceTree = "<group>"; };
+		CBA85A7C2089C17800559D09 /* JMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMView.m; sourceTree = "<group>"; };
 		CBFFF1D22087A4380018F3D0 /* RAC的简单使用以及应用场景.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC的简单使用以及应用场景.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFFF1D52087A4380018F3D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CBFFF1D62087A4380018F3D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,10 +53,10 @@
 		CBFFF1E32087A43A0018F3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFFF1E42087A43A0018F3D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBFFF1EA2087A43A0018F3D0 /* RAC的简单使用以及应用场景Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC的简单使用以及应用场景Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBFFF1EE2087A43A0018F3D0 /* RAC___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC___________Tests.m; sourceTree = "<group>"; };
+		CBFFF1EE2087A43A0018F3D0 /* RAC___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC___________Tests.m"; sourceTree = "<group>"; };
 		CBFFF1F02087A43A0018F3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFFF1F52087A43A0018F3D0 /* RAC的简单使用以及应用场景UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC的简单使用以及应用场景UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBFFF1F92087A43A0018F3D0 /* RAC___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC___________UITests.m; sourceTree = "<group>"; };
+		CBFFF1F92087A43A0018F3D0 /* RAC___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RAC___________UITests.m"; sourceTree = "<group>"; };
 		CBFFF1FB2087A43A0018F3D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +115,8 @@
 				CBFFF1D62087A4380018F3D0 /* AppDelegate.m */,
 				CBFFF1D82087A4380018F3D0 /* ViewController.h */,
 				CBFFF1D92087A4380018F3D0 /* ViewController.m */,
+				CBA85A7B2089C17800559D09 /* JMView.h */,
+				CBA85A7C2089C17800559D09 /* JMView.m */,
 				CBFFF1DB2087A4380018F3D0 /* Main.storyboard */,
 				CBFFF1DE2087A43A0018F3D0 /* Assets.xcassets */,
 				CBFFF1E02087A43A0018F3D0 /* LaunchScreen.storyboard */,
@@ -344,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBFFF1DA2087A4380018F3D0 /* ViewController.m in Sources */,
+				CBA85A7D2089C17800559D09 /* JMView.m in Sources */,
 				CBFFF1E52087A43A0018F3D0 /* main.m in Sources */,
 				CBFFF1D72087A4380018F3D0 /* AppDelegate.m in Sources */,
 			);
@@ -518,7 +524,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
 				INFOPLIST_FILE = "RAC的简单使用以及应用场景/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,7 +542,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
 				INFOPLIST_FILE = "RAC的简单使用以及应用场景/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -547,7 +559,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
 				INFOPLIST_FILE = "RAC的简单使用以及应用场景Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -562,7 +578,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
 				INFOPLIST_FILE = "RAC的简单使用以及应用场景Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -576,7 +596,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
 				INFOPLIST_FILE = "RAC的简单使用以及应用场景UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -590,7 +614,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
 				INFOPLIST_FILE = "RAC的简单使用以及应用场景UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-----------UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -8,8 +8,13 @@
 
 #import "ViewController.h"
 #import <ReactiveObjC/ReactiveObjC.h>
+#import "JMView.h"
 
 @interface ViewController ()
+
+/** JMView */
+@property (nonatomic, strong) JMView *jm_View;
+
 
 /** subscriber */
 @property (nonatomic, strong) id <RACSubscriber>subscriber;
@@ -20,6 +25,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    self.jm_View = [[JMView alloc] initWithFrame:CGRectMake(10, 100, 300, 100)];
+    [self.jm_View.btnClickSignal subscribeNext:^(id  _Nullable x) {
+        NSLog(@"这里打印了按钮的点击事件了哦 %@", x);
+    }];
+    [self.view addSubview:self.jm_View];
+    
+    
+}
+
+- (void)demo1 {
     //1.创建信号
     RACSubject *subject = [RACSubject subject];
     
@@ -30,7 +46,6 @@
     
     //3.发送数据
     [subject sendNext:@"JM"];
-    
 }
 
 - (void)demo {
