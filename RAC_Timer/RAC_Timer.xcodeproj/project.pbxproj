@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A948147BCB1CC0A5B6644EFF /* Pods_RAC_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0B1AADB7C826B048B47BBE /* Pods_RAC_Timer.framework */; };
+		CB9CB854208B914E003EE5F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CB853208B914E003EE5F1 /* AppDelegate.m */; };
+		CB9CB857208B914E003EE5F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CB856208B914E003EE5F1 /* ViewController.m */; };
+		CB9CB85A208B914E003EE5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9CB858208B914E003EE5F1 /* Main.storyboard */; };
+		CB9CB85C208B914F003EE5F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9CB85B208B914F003EE5F1 /* Assets.xcassets */; };
+		CB9CB85F208B914F003EE5F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9CB85D208B914F003EE5F1 /* LaunchScreen.storyboard */; };
+		CB9CB862208B914F003EE5F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CB861208B914F003EE5F1 /* main.m */; };
+		CB9CB86C208B914F003EE5F1 /* RAC_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CB86B208B914F003EE5F1 /* RAC_TimerTests.m */; };
+		CB9CB877208B914F003EE5F1 /* RAC_TimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9CB876208B914F003EE5F1 /* RAC_TimerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB9CB868208B914F003EE5F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9CB847208B914E003EE5F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9CB84E208B914E003EE5F1;
+			remoteInfo = RAC_Timer;
+		};
+		CB9CB873208B914F003EE5F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB9CB847208B914E003EE5F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB9CB84E208B914E003EE5F1;
+			remoteInfo = RAC_Timer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		454D804221AA17126E61FA3C /* Pods-RAC_Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_Timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_Timer/Pods-RAC_Timer.release.xcconfig"; sourceTree = "<group>"; };
+		57729738695B9494FB762852 /* Pods-RAC_Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_Timer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_Timer/Pods-RAC_Timer.debug.xcconfig"; sourceTree = "<group>"; };
+		CB9CB84F208B914E003EE5F1 /* RAC_Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAC_Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9CB852208B914E003EE5F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB9CB853208B914E003EE5F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB9CB855208B914E003EE5F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB9CB856208B914E003EE5F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB9CB859208B914E003EE5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB9CB85B208B914F003EE5F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB9CB85E208B914F003EE5F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB9CB860208B914F003EE5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9CB861208B914F003EE5F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB9CB867208B914F003EE5F1 /* RAC_TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAC_TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9CB86B208B914F003EE5F1 /* RAC_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_TimerTests.m; sourceTree = "<group>"; };
+		CB9CB86D208B914F003EE5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB9CB872208B914F003EE5F1 /* RAC_TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAC_TimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9CB876208B914F003EE5F1 /* RAC_TimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_TimerUITests.m; sourceTree = "<group>"; };
+		CB9CB878208B914F003EE5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0B1AADB7C826B048B47BBE /* Pods_RAC_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB9CB84C208B914E003EE5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A948147BCB1CC0A5B6644EFF /* Pods_RAC_Timer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9CB864208B914F003EE5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9CB86F208B914F003EE5F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9CB846208B914E003EE5F1 = {
+			isa = PBXGroup;
+			children = (
+				CB9CB851208B914E003EE5F1 /* RAC_Timer */,
+				CB9CB86A208B914F003EE5F1 /* RAC_TimerTests */,
+				CB9CB875208B914F003EE5F1 /* RAC_TimerUITests */,
+				CB9CB850208B914E003EE5F1 /* Products */,
+				E7DB21B24D10B87DE77DE3EA /* Pods */,
+				E7D38610906B06F75D42586D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB9CB850208B914E003EE5F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB9CB84F208B914E003EE5F1 /* RAC_Timer.app */,
+				CB9CB867208B914F003EE5F1 /* RAC_TimerTests.xctest */,
+				CB9CB872208B914F003EE5F1 /* RAC_TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB9CB851208B914E003EE5F1 /* RAC_Timer */ = {
+			isa = PBXGroup;
+			children = (
+				CB9CB852208B914E003EE5F1 /* AppDelegate.h */,
+				CB9CB853208B914E003EE5F1 /* AppDelegate.m */,
+				CB9CB855208B914E003EE5F1 /* ViewController.h */,
+				CB9CB856208B914E003EE5F1 /* ViewController.m */,
+				CB9CB858208B914E003EE5F1 /* Main.storyboard */,
+				CB9CB85B208B914F003EE5F1 /* Assets.xcassets */,
+				CB9CB85D208B914F003EE5F1 /* LaunchScreen.storyboard */,
+				CB9CB860208B914F003EE5F1 /* Info.plist */,
+				CB9CB861208B914F003EE5F1 /* main.m */,
+			);
+			path = RAC_Timer;
+			sourceTree = "<group>";
+		};
+		CB9CB86A208B914F003EE5F1 /* RAC_TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9CB86B208B914F003EE5F1 /* RAC_TimerTests.m */,
+				CB9CB86D208B914F003EE5F1 /* Info.plist */,
+			);
+			path = RAC_TimerTests;
+			sourceTree = "<group>";
+		};
+		CB9CB875208B914F003EE5F1 /* RAC_TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB9CB876208B914F003EE5F1 /* RAC_TimerUITests.m */,
+				CB9CB878208B914F003EE5F1 /* Info.plist */,
+			);
+			path = RAC_TimerUITests;
+			sourceTree = "<group>";
+		};
+		E7D38610906B06F75D42586D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC0B1AADB7C826B048B47BBE /* Pods_RAC_Timer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7DB21B24D10B87DE77DE3EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57729738695B9494FB762852 /* Pods-RAC_Timer.debug.xcconfig */,
+				454D804221AA17126E61FA3C /* Pods-RAC_Timer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB9CB84E208B914E003EE5F1 /* RAC_Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9CB87B208B914F003EE5F1 /* Build configuration list for PBXNativeTarget "RAC_Timer" */;
+			buildPhases = (
+				B96BD1E1FF5B619649B172C3 /* [CP] Check Pods Manifest.lock */,
+				CB9CB84B208B914E003EE5F1 /* Sources */,
+				CB9CB84C208B914E003EE5F1 /* Frameworks */,
+				CB9CB84D208B914E003EE5F1 /* Resources */,
+				C956DE77B789F4963F78BE46 /* [CP] Embed Pods Frameworks */,
+				EFF480F5EFD84C3D86287EFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAC_Timer;
+			productName = RAC_Timer;
+			productReference = CB9CB84F208B914E003EE5F1 /* RAC_Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB9CB866208B914F003EE5F1 /* RAC_TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9CB87E208B914F003EE5F1 /* Build configuration list for PBXNativeTarget "RAC_TimerTests" */;
+			buildPhases = (
+				CB9CB863208B914F003EE5F1 /* Sources */,
+				CB9CB864208B914F003EE5F1 /* Frameworks */,
+				CB9CB865208B914F003EE5F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9CB869208B914F003EE5F1 /* PBXTargetDependency */,
+			);
+			name = RAC_TimerTests;
+			productName = RAC_TimerTests;
+			productReference = CB9CB867208B914F003EE5F1 /* RAC_TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB9CB871208B914F003EE5F1 /* RAC_TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9CB881208B914F003EE5F1 /* Build configuration list for PBXNativeTarget "RAC_TimerUITests" */;
+			buildPhases = (
+				CB9CB86E208B914F003EE5F1 /* Sources */,
+				CB9CB86F208B914F003EE5F1 /* Frameworks */,
+				CB9CB870208B914F003EE5F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB9CB874208B914F003EE5F1 /* PBXTargetDependency */,
+			);
+			name = RAC_TimerUITests;
+			productName = RAC_TimerUITests;
+			productReference = CB9CB872208B914F003EE5F1 /* RAC_TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB9CB847208B914E003EE5F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = JM;
+				TargetAttributes = {
+					CB9CB84E208B914E003EE5F1 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					CB9CB866208B914F003EE5F1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CB9CB84E208B914E003EE5F1;
+					};
+					CB9CB871208B914F003EE5F1 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = CB9CB84E208B914E003EE5F1;
+					};
+				};
+			};
+			buildConfigurationList = CB9CB84A208B914E003EE5F1 /* Build configuration list for PBXProject "RAC_Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB9CB846208B914E003EE5F1;
+			productRefGroup = CB9CB850208B914E003EE5F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB9CB84E208B914E003EE5F1 /* RAC_Timer */,
+				CB9CB866208B914F003EE5F1 /* RAC_TimerTests */,
+				CB9CB871208B914F003EE5F1 /* RAC_TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB9CB84D208B914E003EE5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9CB85F208B914F003EE5F1 /* LaunchScreen.storyboard in Resources */,
+				CB9CB85C208B914F003EE5F1 /* Assets.xcassets in Resources */,
+				CB9CB85A208B914E003EE5F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9CB865208B914F003EE5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9CB870208B914F003EE5F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B96BD1E1FF5B619649B172C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RAC_Timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C956DE77B789F4963F78BE46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RAC_Timer/Pods-RAC_Timer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC_Timer/Pods-RAC_Timer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF480F5EFD84C3D86287EFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC_Timer/Pods-RAC_Timer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB9CB84B208B914E003EE5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9CB857208B914E003EE5F1 /* ViewController.m in Sources */,
+				CB9CB862208B914F003EE5F1 /* main.m in Sources */,
+				CB9CB854208B914E003EE5F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9CB863208B914F003EE5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9CB86C208B914F003EE5F1 /* RAC_TimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9CB86E208B914F003EE5F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9CB877208B914F003EE5F1 /* RAC_TimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB9CB869208B914F003EE5F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9CB84E208B914E003EE5F1 /* RAC_Timer */;
+			targetProxy = CB9CB868208B914F003EE5F1 /* PBXContainerItemProxy */;
+		};
+		CB9CB874208B914F003EE5F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB9CB84E208B914E003EE5F1 /* RAC_Timer */;
+			targetProxy = CB9CB873208B914F003EE5F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB9CB858208B914E003EE5F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9CB859208B914E003EE5F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB9CB85D208B914F003EE5F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB9CB85E208B914F003EE5F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9CB879208B914F003EE5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB9CB87A208B914F003EE5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB9CB87C208B914F003EE5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57729738695B9494FB762852 /* Pods-RAC_Timer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = RAC_Timer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB9CB87D208B914F003EE5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 454D804221AA17126E61FA3C /* Pods-RAC_Timer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = RAC_Timer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB9CB87F208B914F003EE5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = RAC_TimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC_Timer.app/RAC_Timer";
+			};
+			name = Debug;
+		};
+		CB9CB880208B914F003EE5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = RAC_TimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAC_Timer.app/RAC_Timer";
+			};
+			name = Release;
+		};
+		CB9CB882208B914F003EE5F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = RAC_TimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RAC_Timer;
+			};
+			name = Debug;
+		};
+		CB9CB883208B914F003EE5F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RL8S7JFUQ;
+				INFOPLIST_FILE = RAC_TimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ailaopo.RAC-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RAC_Timer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9CB84A208B914E003EE5F1 /* Build configuration list for PBXProject "RAC_Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9CB879208B914F003EE5F1 /* Debug */,
+				CB9CB87A208B914F003EE5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9CB87B208B914F003EE5F1 /* Build configuration list for PBXNativeTarget "RAC_Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9CB87C208B914F003EE5F1 /* Debug */,
+				CB9CB87D208B914F003EE5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9CB87E208B914F003EE5F1 /* Build configuration list for PBXNativeTarget "RAC_TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9CB87F208B914F003EE5F1 /* Debug */,
+				CB9CB880208B914F003EE5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB9CB881208B914F003EE5F1 /* Build configuration list for PBXNativeTarget "RAC_TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9CB882208B914F003EE5F1 /* Debug */,
+				CB9CB883208B914F003EE5F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB9CB847208B914E003EE5F1 /* Project object */;
+}
