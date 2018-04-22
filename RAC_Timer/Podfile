@@ -1,0 +1,12 @@
+use_frameworks!
+platform :ios, '8.0'
+
+target 'RAC_Timer' do
+
+#pod 'ReactiveCocoa','4.0.0'
+pod 'ReactiveObjC'
+
+end
+
+
+
